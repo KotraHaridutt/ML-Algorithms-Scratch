@@ -4,72 +4,74 @@ Machine Learning Algorithms from Scratch
 
 This repository contains implementations of fundamental machine learning algorithms from scratch using Python. The algorithms implemented are:
 
-Linear Regression
+1. Linear Regression
 
-Logistic Regression
+2. Logistic Regression
 
-K-Nearest Neighbors (KNN)
+3. K-Nearest Neighbors (KNN)
 
-Lasso Regression
+4. Lasso Regression
 
 Each algorithm is implemented without using high-level machine learning libraries such as scikit-learn, ensuring a deep understanding of the underlying mathematical concepts.
 
-📊 #Implemented Algorithms
+📊 Implemented Algorithms
 
 1️⃣ Linear Regression
 
-A supervised learning algorithm used for predicting continuous values. This implementation includes:
+• A supervised learning algorithm used for predicting continuous values. This implementation includes:
 
-Gradient Descent approach
+• Gradient Descent approach
 
-Mean Squared Error (MSE) as the loss function
+• Mean Squared Error (MSE) as the loss function
 
 📌 Notebook: https://colab.research.google.com/drive/1324DtkDJzoOu1mNPbriLaNA4q36Q7Hmg
 
 2️⃣ Logistic Regression
 
-A classification algorithm used for binary classification tasks. This implementation includes:
+• A classification algorithm used for binary classification tasks. This implementation includes:
 
-Sigmoid activation function
+• Sigmoid activation function
 
-Binary Cross Entropy loss
+• Binary Cross Entropy loss
 
-Gradient Descent optimization
+• Gradient Descent optimization
 
-📌 Notebook: [Logistic_Regression.ipynb(https://colab.research.google.com/drive/100k3uMfTWXRHMtCNQ-yG6U2vqEWK92OV)
+📌 Notebook: https://colab.research.google.com/drive/100k3uMfTWXRHMtCNQ-yG6U2vqEWK92OV
 
 3️⃣ K-Nearest Neighbors (KNN)
 
-A non-parametric classification algorithm that classifies data points based on their proximity to labeled examples. This implementation covers:
+• A non-parametric classification algorithm that classifies data points based on their proximity to labeled examples. This implementation covers:
 
-Euclidean , Manhattan distance calculation
+• Euclidean , Manhattan distance calculation
 
-Weighted voting mechanism
+• Weighted voting mechanism
 
-📌 Notebook: [KNN.ipynb](https://colab.research.google.com/drive/1GNsBrCG3dfC_CixW8gOmw01XXsW62GlL)
+📌 Notebook: https://colab.research.google.com/drive/1GNsBrCG3dfC_CixW8gOmw01XXsW62GlL
 
 4️⃣ Lasso Regression
 
 A regression technique that introduces L1 regularization to reduce overfitting and enforce sparsity in coefficients. This implementation includes:
 
-Least Absolute Shrinkage and Selection Operator (LASSO)
+• Least Absolute Shrinkage and Selection Operator (LASSO)
 
-Coordinate Descent optimization
+• Coordinate Descent optimization
 
-Comparison with Ridge and Standard Linear Regression
+• Comparison with Ridge and Standard Linear Regression
 
-📌 Notebook: [Lasso_Regression.ipynb](https://colab.research.google.com/drive/1OATzt6WlVtiWpoyDk28LPYXydj3MTh6r)
+📌 Notebook: https://colab.research.google.com/drive/1OATzt6WlVtiWpoyDk28LPYXydj3MTh6r
 
 🛠️ Installation & Usage
 
 Prerequisites
 
 Ensure you have Python installed along with the following dependencies:
+
 pip install numpy pandas matplotlib seaborn jupyter
 
 Running the Notebooks
 
 Clone this repository:
+
 git clone https://github.com/KotraHaridutt/ML-algorithms-scratch.git
 cd ML-Algorithms-From-Scratch
 
